@@ -41,7 +41,7 @@ public class SongViewHolder extends RecyclerView.ViewHolder {
         itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(clickListener != null && currentSongItem != null)
+                if (clickListener != null && currentSongItem != null)
                     clickListener.onItemClicked(currentSongItem);
             }
         });
